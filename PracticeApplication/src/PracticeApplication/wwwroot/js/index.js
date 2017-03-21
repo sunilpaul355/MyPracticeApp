@@ -67,7 +67,13 @@ var squareIt = function (rect) {
 var sqr1 = squareIt({ h: 2 });
 console.log('the square root for only height ' + sqr1);
 var sqr2 = squareIt({ h: 40, w: 30 });
-console.log('the square root for height and width ' + sqr2);
+console.log('the square root for height and width  ' + sqr2);
+var myFunc = function (h, w) {
+    return h * w;
+};
+var MyFunc1 = function (h, w) { return (h * w); };
+console.log('Return of function ' + myFunc(2, 4));
+console.log('Return of function ' + MyFunc1(3, 4));
 //var firstNumber: number;
 //var secondNumber: number;
 //var thirdNumber: number;
